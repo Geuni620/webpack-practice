@@ -6,3 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
     <img src="${nyancat}" />
     `;
 });
+
+console.log(process.env.NODE_ENV);
+console.log(TWO);
